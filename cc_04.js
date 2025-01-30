@@ -83,3 +83,9 @@ function calculateTax(amount, taxRate) {
 
 let tax = calculateTax(100, 0.5);
 console.log(`Tax amount: $${tax}`);
+
+// Task 9 Discount Application
+// Decleared array of discount application
+const applyDiscount = function(price, discountPercent) {
+    return price * (1 - discountPercent / 100);
+}
