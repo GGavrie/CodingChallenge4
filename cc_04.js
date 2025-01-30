@@ -73,3 +73,13 @@ for (let product of products2) {
 // Decleared array of employee performance
 let orderIds = [12, 13, 14];
 orderIds.forEach(id => console.log(`Order ID: ${id}`));
+
+
+// Task 8 Tax Calculation
+// Decleared array of tax calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+let tax = calculateTax(100, 0.5);
+console.log(`Tax amount: $${tax}`);
