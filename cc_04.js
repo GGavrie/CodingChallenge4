@@ -50,3 +50,12 @@ do {
 responses++;
 console.log(`Response count: ${responses}`);
 } while (responses < 3);
+
+
+// Task 5
+// Decleared array of employee performance
+let employee2 = { name: "Alice", position: "Manager", salary: 75000 };
+
+for (let property in employee2) {
+    console.log(`${property}: ${employee2[property]}`);
+}
