@@ -89,3 +89,12 @@ console.log(`Tax amount: $${tax}`);
 const applyDiscount = function(price, discountPercent) {
     return price * (1 - discountPercent / 100);
 }
+
+// Task 10 Loyalty Points
+// Calculated discount 
+console.log(`Price after discount: $${finalPrice}`);
+
+const calculatePoints = (amount) => Math.floor(amount / 10);
+
+let points = calculatePoints(150);
+console.log(`Points earned: ${points}`);
