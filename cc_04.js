@@ -11,3 +11,17 @@ if (purchaseAmount > 100) {
 }
 
 console.log(`Final amount after discount: $${finalAmount}`);
+
+
+// Task 2 Sales Report
+// Decleared array of sales
+let sales = [1000, 2000, 3000, 4000, 5000];
+let totalSales = 0;
+
+//  add up the total sales
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i];
+}
+
+console.log(`Total sales: $${totalSales}`);
+
