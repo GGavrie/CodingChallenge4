@@ -37,3 +37,16 @@ while (stock > 0) {
 }
 
 console.log(`Total sales: $${totalSales}`);
+
+
+// Task 4 Customer Survey 
+// Decleared array of customer survey
+console.log(`Current stock: ${stock}`);
+stock--;
+
+let responses = 0;
+
+do {
+responses++;
+console.log(`Response count: ${responses}`);
+} while (responses < 3);
