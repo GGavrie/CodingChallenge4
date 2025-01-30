@@ -68,3 +68,8 @@ let products2 = ["Bed", "Pants", "Hat"];
 for (let product of products2) {
     console.log(`Product: ${product}`);
 }
+
+//Task 7 
+// Decleared array of employee performance
+let orderIds = [12, 13, 14];
+orderIds.forEach(id => console.log(`Order ID: ${id}`));
