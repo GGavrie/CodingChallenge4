@@ -59,3 +59,12 @@ let employee2 = { name: "Alice", position: "Manager", salary: 75000 };
 for (let property in employee2) {
     console.log(`${property}: ${employee2[property]}`);
 }
+
+
+// Task 6 Product Listings
+// Decleared array of product listings
+let products2 = ["Bed", "Pants", "Hat"];
+
+for (let product of products2) {
+    console.log(`Product: ${product}`);
+}
