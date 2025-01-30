@@ -25,3 +25,15 @@ for (let i = 0; i < sales.length; i++) {
 
 console.log(`Total sales: $${totalSales}`);
 
+
+// Task 3 Inventory Depletion
+// Decleared array of inventory
+let stock = 10;
+
+// While loop to decrement the stock
+while (stock > 0) {
+    console.log(`Current stock: ${stock}`);
+    stock--;
+}
+
+console.log(`Total sales: $${totalSales}`);
